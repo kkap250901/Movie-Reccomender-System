@@ -1,4 +1,5 @@
-### DISCLAIMER : Most files take a long time to run especially on cpu, as this model is trained on NCC GPUs and the model is very deep therefore in the info below I will mention the files which would take very long to run, and should only be run on CUDA supported environments.
+### DISCLAIMER : 
+Most files take a long time to run especially on cpu, as this model is trained on NCC GPUs and the model is very deep therefore in the info below I will mention the files which would take very long to run, and should only be run on CUDA supported environments.
 
 #### For_per_user_rec
 This folder stored dataframes for users 1-200 with the predicted ratigns of the movies those users have not watched, the resaon for this as explained below and above is that it would not be possible to retrain the model, and make predictions on a latop with not a dedicated graphics card.
